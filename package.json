@@ -1,0 +1,20 @@
+{
+  "name": "newcprteamadela",
+  "version": "1.0.0",
+  "description": "version 2",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeardedBeauty/newCPRteamADELA.git"
+  },
+  "author": "johnochs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeardedBeauty/newCPRteamADELA/issues"
+  },
+  "homepage": "https://github.com/BeardedBeauty/newCPRteamADELA#readme"
+}
