@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from "./components/Nav";
+import Home from "./pages/Home";
 import './App.css';
 
 class App extends React.Component {
@@ -12,12 +13,9 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<header className="">
+			<header>
 				<Nav />
-				<div className="filler">
-					jfdsljfa
-					<p>asfddffdgwrieom</p><p>asfddffdgwrieom</p><p>asfddffdgwrieom</p><p>asfddffdgwrieom</p><p>asfddffdgwrieom</p><p>asfddffdgwrieom</p>
-				</div>
+				<Home />
 			</header>
 		);
 	}

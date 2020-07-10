@@ -5,16 +5,24 @@ nav {
     position: fixed;
 }
 
+.title {
+    margin-top: 28px;
+    margin-left: 40px;
+    font-size: 32px;
+    float: left;
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .linkBlock {
     height: 100%;
-    color: #00f7ff;
+    color: #ffffff;
     text-align: center;
     align-content: center;
     float: left;
     font-weight: bold;
     padding-right: 30px;
     padding-left: 30px;
-    /* padding: 0, 30px, 0, 30px; */
 }
 
 .innerLink {
@@ -32,6 +40,11 @@ nav {
 .linkBlock:hover .hoverLine {
     width: 100%;
     margin-left: 0%;
+}
+
+.blocks {
+    float: right;
+    margin-right: 6%;
 }
 
 @media screen and (max-width: 999px) {
