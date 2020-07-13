@@ -3,6 +3,7 @@ nav {
     background-color: #b11919;
     height: 100px;
     position: fixed;
+    z-index: 10;
 }
 
 .title {
