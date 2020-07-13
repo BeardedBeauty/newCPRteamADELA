@@ -58,11 +58,11 @@ function Home() {
             <img src={mid} className="headingimg" />
             <div className="classesHomepage">
                 <p>We are committed to teaching CPR/AED and First Aid training and we understand the demands of everyday life, striving to make the classes convenient and easy to learn.</p>
-                <p>Classes are offered at Mayer Lutheran High School. </p>
+                <p>Classes are offered at Mayer Lutheran High School.</p>
                 <p className="bold">
-                    If you are a group, organization or a business located in Minnesota, please contact us by phone at:</p>
-                <p>(763) 232-1101 or <a href="mailto:cprteamadela@gmail.com">cprteamadela@gmail.com</a>
+                    If you are a group, organization or a business located in Minnesota, please contact us by phone at:
                 </p>
+                <p>(763) 232-1101 or <a href="mailto:cprteamadela@gmail.com">cprteamadela@gmail.com</a></p>
                 <p>We will travel to your place!</p>
             </div>
             <div className="clearfix dark">
@@ -71,7 +71,7 @@ function Home() {
                     <p>Certified and Experienced</p>
                     <p>
                         Certified through the American Heart Association (AHA) to teach administration of Cardiopulmonary Resuscitation (CPR), Automated External Defibrillator (AED), First Aid, and Basic Life Support (BLS).
-                </p>
+                    </p>
                 </div>
                 <div className="infobox gray">
                     <img src={mid3} />
