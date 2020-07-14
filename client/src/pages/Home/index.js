@@ -63,7 +63,7 @@ function Home() {
                     If you are a group, organization or a business located in Minnesota, please contact us by phone at:
                 </p>
                 <p>(763) 232-1101 or <a href="mailto:cprteamadela@gmail.com">cprteamadela@gmail.com</a></p>
-                <p>We will travel to your place!</p>
+                <p>Sessions can take place at your desired location</p>
             </div>
             <div className="clearfix dark">
                 <div className="infobox dark">
@@ -134,7 +134,14 @@ function Home() {
             </div>
             <div className="clearfix light subtitle">
                 SUBSCRIBE
-                
+                <br /><br />
+                <div className="inputbox">
+                    <input class="basicInput transition" type="text" id="email" name="email" />
+                    <div className="button1">
+                        <div className="buttontext">SUBMIT</div>
+                        <div className="hoverbutton transition"></div>
+                    </div>
+                </div>
             </div>
         </>
     )
