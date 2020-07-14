@@ -32,6 +32,22 @@
   background-color: #444444;
 }
 
+.red {
+  background-color: #b11919;
+}
+
+.light {
+  background-color: #d8d8d8;
+  color: #444444;
+}
+
+.line {
+  background-color: #c90000;
+  width: 80%;
+  height: 1px;
+  margin: 10px 10% 10px 10%;
+}
+
 .left { float: left; }
 .right { float: right; }
 .visible {opacity: 1}

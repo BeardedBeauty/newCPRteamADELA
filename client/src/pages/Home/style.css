@@ -73,7 +73,7 @@
     width: 50%;
 }
 
-.infobox p {
+.infobox p, .basic {
     margin: 30px 5% 30px 5%;
     text-align: center;
     font-size: 24px;

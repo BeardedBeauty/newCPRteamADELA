@@ -51,7 +51,7 @@ function Home() {
                 <br /><br />
                 <iframe className="video" title="world" data-ux="Embed" allowfullscreen="" type="text/html" frameborder="0" data-aid="VIDEO_IFRAME_RENDERED" src="https://youtube.com/embed/EC7HW7S2EzI?rel=0&showinfo=0&start=0"></iframe>
             </div>
-            <div className="clearfix dark subtitle">CLASSES</div>
+            <div className="clearfix dark subtitle">TEAM ADELA CLASSES</div>
             <div className={`subtitle2 transition2 ${fade ? 'visible' : 'invisible'}`} ref={domRef}>
                 A HANDS ON EDUCATION APPROACH
             </div>
@@ -78,10 +78,63 @@ function Home() {
                     <p>Administer CPR with Confidence</p>
                     <p>
                         The class curriculum conforms to current AHA guidelines, utilizing the current mannequins required for the AHA that provide audio and visual feedback on the rate and depth of compressions during CPR training.
-                        We guarantee you will leave the class with the skills necessary to effectively administer high quality CPR/AED for adults, children, and babies.
+                        We guarantee you will leave the class with the skills necessary to effectively administer high quality CPR/AED for adults, children, and infants.
                         As a cardiac arrest survivor, I know how important it is to know these skills!
                     </p>
                 </div>
+            </div>
+            <div className="clearfix red subtitle">CPR/AED CLASSES</div>
+            <div className="basic">
+                <p className="bold">DISCRIPTION</p>
+                <p>Heartsaver CPR/AED gives individuals the knowledge and skills necessary to recognize and provide basic care for breathing and cardiac emergencies until advanced medical personnel arrive. This American Heart Association course certifies individuals in CPR/AED for adults, children and infants and is valid for two years.</p>
+                <br />
+                <p className="bold">CERTIFICATION</p>
+                <p>This course can be taken either in a traditional classroom setting, a blended learning setting (with some online coursework required prior to an in-person skill session), or on-site location. The exact same 2-year American Heart Association certification card is administered for each type of session.</p>
+                <div className="clearfix"></div>
+            </div>
+            <div className="clearfix red subtitle">BLS-BASIC LIFE SUPPORT</div>
+            <div className="basic">
+                <p className="bold">DISCRIPTION</p>
+                <p>
+                    The American Heart Association Basic Life Support (BLS) course is designed to train healthcare professionals on recognizing and responding to life-threatening emergencies.
+                    Nearly all Healthcare workers are required to have completed this BLS class.
+                    Skills include: Providing 1 and 2 rescuer CPR/AED for adults, children and infants, using an Automated External Defibrillator and relieving choking.
+                </p>
+                <br />
+                <p className="bold">CERTIFICATION</p>
+                <p>
+                    This course can be taken either in a traditional classroom setting, a blended learning setting (with some online course work required prior to an in-person skill session) or on-site location.
+                    The exact same 2-year American Heart Association certification is administered for each type of session.
+                </p>
+                <div className="clearfix"></div>
+            </div>
+            <div className="clearfix dark subtitle">BLENDED</div>
+            <div className="clearfix gray">
+                <div className="basic">
+                    <p className="bold">CPR/AED Heartsaver®</p>
+                    <p>
+                        CPR AED  blended learning training offers flexibility for employers, students, and Instructors. The online (eLearning) portion of the course is designed to teach students the cognitive information needed for first aid and/or CPR and AED training.
+                        Upon completion of the online portion, students must complete hands-on session  focused on meaningful skills coaching, practice, and testing.
+                    </p>
+                    <div className="line"></div>
+                    <p className="bold">HANDS ON SESSION</p>
+                    <p>
+                        Hands-on session duration for CPR/AED, First Aid or BLS is approximatly 30 minutes long.
+                        If you are a group, organization or bussiness, sessions can take place at your desired location!
+                    </p>
+                    <div className="line"></div>
+                    <p className="bold">BLS HeartCode®</p>
+                    <p>
+                        HeartCode BLS uses a variety of eLearning assets such as dramatizations, eSimulations, animations, self-directed learning, and interactive activities to teach students BLS knowledge and skills.
+                        After completing the online portion, students attend a structured BLS Hands-On Session with an AHA Instructor. This session focuses on meaningful skills practice, debriefing, team scenarios, discussions of local protocols, and skills testing.
+                        HeartCode BLS is for healthcare professionals seeking an alternative method for completing an initial or renewal BLS Course.
+                    </p>
+                    <div className="clearfix"></div>
+                </div>
+            </div>
+            <div className="clearfix light subtitle">
+                SUBSCRIBE
+                
             </div>
         </>
     )
